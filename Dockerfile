@@ -9,4 +9,4 @@ RUN curl -fsSL -o /tmp/atlassian-plugin-sdk-${ATLAS_VERSION}.tar.gz ${BASE_URL}/
 
 ENV PATH="/opt/atlassian-plugin-sdk/bin:${PATH}"
 
-CMD ["atlas-mvn"]
+CMD ["atlas-version"]
